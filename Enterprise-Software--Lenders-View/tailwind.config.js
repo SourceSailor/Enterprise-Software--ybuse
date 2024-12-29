@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "black-opacity": "rgba(0, 0, 0, 0.9)",
+        "gray-dark": "#323232",
       },
       fontFamily: {
         sans: ["DM Sans", "sans-serif"],

@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-black-opacity  text-white min-h-screen font-sans;
+  @apply bg-black-opacity text-white min-h-screen font-sans;
+}
+
+@layer utilities {
+  .icon-size {
+    @apply text-xl; /* Replace with your desired default size */
+  }
 }
